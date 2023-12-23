@@ -1,9 +1,6 @@
 const hourElement = document.getElementById("hour")
-
 const minuteElement = document.getElementById("minutes")
-
 const secondElement = document.getElementById("seconds")
-
 const amPMelement = document.getElementById("AmPM")
 
 function updateClock (){
