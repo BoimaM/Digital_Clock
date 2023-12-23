@@ -14,11 +14,12 @@ function updateClock (){
     ampm = "PM"
   }
 
+  // The below three lines places a "0" in from of numbers less than 10. Gives it more of a "clock feel".
   h = h < 10 ? "0" + h: h;
   m = m < 10 ? "0" + m: m;
   s = s < 10 ? "0" + s: s;
 
-
+// Places the get Time sources (hour, minutes, seconds) into the inner HTML text.
   hourElement.innerText = h;
   minuteElement.innerText = m;
   secondElement.innerText = s;
