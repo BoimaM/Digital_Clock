@@ -7,8 +7,8 @@ body{
   height: 100vh;
   justify-content: center;
   background: url("https://img.freepik.com/premium-vector/watercolor-nature-background-with-green-leaves_615876-59.jpg");
-
   background-size: cover;
+  overflow: hidden;
 }
 
 h2{
